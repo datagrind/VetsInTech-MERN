@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Block vs. Inline Elements</title>
+    <style>
+        .block {
+            display: block;
+            background-color: lightblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .inline {
+            display: inline;
+            background-color: lightcoral;
+            padding: 5px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Block vs. Inline Elements</h1>
+
+    <h2>Block-Level Elements</h2>
+    <p class="block">Block-level elements start on a new line and take up the full width of their container. They create a "block" of content.</p>
+    <div class="block">This is a block-level <span class="inline">span</span> element inside a <span class="inline">div</span> element.</div>
+
+    <h2>Inline Elements</h2>
+    <p class="block">Inline elements do not start on a new line and only take up as much width as necessary. They are displayed "inline" with the surrounding content.</p>
+    <p>For example, this is an <span class="inline">inline</span> element within a paragraph of text. It does not create a new line.</p>
+</body>
+</html>
