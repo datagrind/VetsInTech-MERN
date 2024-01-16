@@ -1,0 +1,50 @@
+/* Default styles for screens larger than 1024px (desktop) */
+* {
+  border: 1px solid red;
+}
+
+body {
+    font-size: 18px;
+  }
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  width: 100px;
+  border-color: red;
+  border: 1px;
+}
+
+.content {
+}
+  
+.header {
+  background-color: lightblue;
+  padding: 20px;
+}
+
+/* Media query for screens between 768px and 1024px (tablet) */
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  .header {
+    background-color: rgb(49, 221, 126);
+  }
+}
+
+/* Media query for screens up to 768px (mobile) */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  .header {
+    background-color: rgb(195, 122, 255);
+  }
+}
+  
